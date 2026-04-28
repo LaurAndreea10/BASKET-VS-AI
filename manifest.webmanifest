@@ -2,7 +2,7 @@
   "name": "Basket vs AI Enhanced Pro",
   "short_name": "Basket vs AI",
   "description": "Touch-first basketball duel against progressive AI with daily challenges and achievements.",
-  "start_url": "./enhanced.html",
+  "start_url": "./pro.html",
   "display": "standalone",
   "background_color": "#050810",
   "theme_color": "#ff7a2a",
