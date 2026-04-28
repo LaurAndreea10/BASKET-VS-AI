@@ -12,6 +12,8 @@ Enhanced Pro version:
 
 https://laurandreea10.github.io/BASKET-VS-AI/enhanced.html
 
+These two public URLs must stay unchanged so players can access both versions directly.
+
 ## ✨ Highlights
 
 - Fast arcade basketball gameplay against an AI opponent
@@ -29,6 +31,10 @@ https://laurandreea10.github.io/BASKET-VS-AI/enhanced.html
 
 ## ✅ Latest Improvements
 
+- Added a dedicated `enhanced-pro-banner.js` helper for the Enhanced Pro page, with clear Main version and Enhanced Pro version navigation
+- Preserved the public URLs for both versions:
+  - Main version: `https://laurandreea10.github.io/BASKET-VS-AI/`
+  - Enhanced Pro version: `https://laurandreea10.github.io/BASKET-VS-AI/enhanced.html`
 - Rebuilt `enhanced.html` as an Enhanced Pro version that combines the existing Enhanced page with key mechanics from `BASKET-VS-AI-PRO`
 - Added aim control separated from the power meter using keyboard controls, touch buttons, and an aim slider
 - Added bank-shot physics, backboard bounce, rim-hit tracking, anti-stuck recovery, and ball speed display
@@ -76,11 +82,12 @@ https://laurandreea10.github.io/BASKET-VS-AI/enhanced.html
 
 ```text
 BASKET-VS-AI/
-├── index.html      # Original full game page
-├── enhanced.html   # Enhanced Pro game page
-├── styles.css      # Enhanced Pro responsive styling
-├── script.js       # Enhanced Pro gameplay, career, shop, leaderboard, competitions
-└── README.md       # Project documentation and changelog
+├── index.html                # Original full game page
+├── enhanced.html             # Enhanced Pro game page
+├── enhanced-pro-banner.js    # Version banner/navigation helper for Enhanced Pro
+├── styles.css                # Enhanced Pro responsive styling
+├── script.js                 # Enhanced Pro gameplay, career, shop, leaderboard, competitions
+└── README.md                 # Project documentation and changelog
 ```
 
 ## 🚀 Deployment
