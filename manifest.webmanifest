@@ -1,0 +1,34 @@
+{
+  "name": "Basket vs AI Enhanced Pro",
+  "short_name": "Basket vs AI",
+  "description": "Touch-first basketball duel against progressive AI with daily challenges and achievements.",
+  "start_url": "./enhanced.html",
+  "display": "standalone",
+  "background_color": "#050810",
+  "theme_color": "#ff7a2a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-game.svg",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Basket vs AI gameplay arena"
+    },
+    {
+      "src": "screenshot-hub.svg",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Daily challenges and achievements hub"
+    }
+  ]
+}
